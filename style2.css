@@ -9,6 +9,13 @@
     display: flex;
     flex-direction: column;
     align-items: center;
+    height: 574px;
+}
+.tabletmap{
+    display: none;
+}
+.mobilenone{
+    display: none;
 }
 .firsthtml{
     display: flex;
@@ -43,7 +50,6 @@ a{
     align-items: center;
     text-align: start;
     padding-top: 48px;
-    margin-top: 478px;
     height: 493px;
     flex-shrink: 0;
     background: #151515;

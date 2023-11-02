@@ -1,0 +1,101 @@
+@media (width > 768px){
+    .fbox{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+    }
+    .mobile{
+        display: none;
+    }
+    .tablet{
+        display: block;
+        margin-left: -43px;
+    }
+    .fboxtxt{
+        z-index: 10;
+        margin-left: -50px;
+        row-gap: 48px;
+    }
+    h1{
+        width: 330px;
+        font-size: 70px;
+        line-height: 65px;
+    }
+    h2{
+        width: 339px;
+        font-size: 18px;
+        line-height: 28px;
+    }
+    .mobileimg{
+        display: none;
+    }
+    .tabimg{
+        display: block;
+    }
+    .images{
+        display: grid;
+        justify-content: center;
+        align-items: center;
+        row-gap: 11px;
+        grid-template-areas: "pirveli meore meore"
+                                "mesame mesame meotxe"
+                                    "mesame mesame mexute";
+    }
+    .txt1{
+        grid-area: pirveli;
+        margin-right: 68px;
+    }
+    h3{
+        width: 223px;
+        color: var(--Almost-Black, #151515);
+        font-size: 50px;
+        line-height: 45px;
+    }
+    h4{
+        width: 223px;
+        color: var(--Dark-Grey, #444);
+        font-size: 18px;
+        line-height: 28px;
+    }
+    .image1{
+        grid-area: meore;
+    }
+    .image2{
+        grid-area: mesame;
+    }
+    .image3{
+        grid-area: meotxe;
+    }
+    .txt2{
+        grid-area: mexute;
+        width: 280px;
+        height: 396px;
+        flex-shrink: 0;
+    }
+    h5{
+        width: 223px;
+        color: var(--White, #FFF);
+        font-size: 50px;
+        line-height: 45px;
+    }
+    h6{
+        width: 223px;
+        color: var(--White, #FFF);
+        font-size: 18px;
+        line-height: 28px;
+    }
+    footer{
+        height: 216px;
+    }
+    .footertxt{
+        display: flex;
+        flex-direction: row;
+        column-gap: 90px;
+    }
+    b{
+        width: 281px;
+        font-size: 16px;
+        line-height: 26px;
+    }
+}
