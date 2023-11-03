@@ -37,6 +37,9 @@
     flex-shrink: 0;
     background: var(--Almost-Black, #151515);
 }
+.dskp{
+    display: none;
+}
 a{
     text-decoration: none;
     color: var(--White, #FFF);

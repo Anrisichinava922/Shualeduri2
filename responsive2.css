@@ -37,6 +37,9 @@
     h4{
         width: 281px;
     }
+    .dskp{
+        display: none;
+    }
 }
 
 
@@ -66,7 +69,7 @@
     .mb{
         display: none;
     }
-    .dsk{
+    .dskp{
         display: block;
     }
     .s3b1{
