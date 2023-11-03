@@ -17,12 +17,15 @@
 .mobilenone{
     display: none;
 }
+.dsk{
+    display: none;
+}
 .firsthtml{
     display: flex;
     left: 0;
     flex-direction: row-reverse;
     z-index: 6;
-    margin-top: -550px;
+    margin-top: -560px;
     margin-left: -115px;
 }
 .fdiv{
@@ -52,6 +55,7 @@ a{
     padding-top: 48px;
     height: 493px;
     flex-shrink: 0;
+    margin-top: -30px;
     background: #151515;
 }
 h1{
