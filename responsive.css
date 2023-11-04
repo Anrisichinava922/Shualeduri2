@@ -165,6 +165,7 @@
         line-height: 88px;
         width: 450px;
         margin-left: -780px;
+        mix-blend-mode:difference;
         color: white;
     }
     h2{
