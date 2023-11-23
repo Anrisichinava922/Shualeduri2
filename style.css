@@ -26,6 +26,9 @@
 .blacknonediv{
     display: none;
 }
+.mixblmode{
+    mix-blend-mode: difference;
+}
 h1{
     width: 343px;
     color: var(--Almost-Black, #151515);
